@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Technology</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6fa;
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+        header p {
+            font-size: 18px;
+        }
+        nav {
+            background-color: #1565c0;
+            text-align: center;
+            padding: 12px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        section {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        section h2 {
+            color: #0d47a1;
+            text-align: center;
+        }
+        section img {
+            width: 45%;
+            max-width: 400px;
+            height: 250px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 10px;
+            border: 2px solid #0d47a1;
+        }
+        video {
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            margin: 20px auto;
+            border-radius: 10px;
+            border: 2px solid #0d47a1;
+        }
+        footer {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        section P {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+        section h3 {
+            font-size: 22px;
+        }
+       .student-card {
+         width: 80%;
+         max-width: 650px;
+         margin: 40px auto;
+         padding: 30px;
+         text-align: center;
+         background: white;
+         border: 2px solid #1e3a8a;
+         border-radius: 20px;
+         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+       .student-icon {
+         width: 70px;
+         height: 70px;
+         margin: 0 auto 15px;
+         background: #1e3a8a;
+         color: white;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 24px;
+         font-weight: bold;
+        }
+
+       .student-card h2 {
+         font-family: Georgia, serif;
+         font-size: 28px;
+         margin-bottom: 15px;
+        }
+
+       .student-name {
+         font-family: Arial, sans-serif;
+         font-size: 26px;
+         font-weight: bold;
+         color: #1e3a8a;
+        }
+
+       .student-reg {
+         font-family: "Courier New", monospace;
+         font-size: 17px;
+         font-weight: bold;
+         letter-spacing: 1px;
+        }
+       .student-department {
+         font-family: Verdana, sans-serif;
+         font-size: 18px;
+         font-weight: bold;
+        }
+
+       .student-message {
+         font-family: "Times New Roman", serif;
+         font-size: 17px;
+         line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Web Technology</h1>
+        <p>Welcome to my Web Technology webpage</p>
+    </header>
+
+    <nav>
+
+     <a href="#home">Home</a>
+
+     <a href="#about">About</a>
+
+     <a href="#technology">Technology</a>
+
+     <a href="#video">Video</a>
+
+     <a href="https://www.w3schools.com/"
+       target="_blank">
+        W3Schools
+     </a>
+
+    </nav>
+
+
+    <main>
+
+        <section class="student-card">
+         <div class="student-icon">CS</div><h2>Web Technology Assignment</h2>
+
+         <p class="student-name">Aliyu Ibrahim Yau</p>
+
+         <p class="student-reg">Reg. No: ND/COM/24/0063</p>
+
+         <p class="student-department">Department: Computer Science</p>
+
+         <p class="student-message">
+          Exploring the world of Web Technology through HTML, CSS and JavaScript.
+         </p>
+
+</section>
+        <section id="home">
+           <h2 style="font-family: Georgia; font-size: 32px;">
+         Introduction to Web Technology
+           </h2>
+           <p style="font-family: Arial; font-size: 18px; color: darkblue;">
+           <b>Web Technology</b> refers to the various technologies, tools, programming languages, and techniques used to create, design, develop, and maintain websites and web applications.
+           </p>
+           <p style="font-family: 'Times New Roman'; font-size: 20px;">
+            The <i>World Wide Web</i> has changed the way people interact with information. Websites can contain
+           <b style="color: darkred;">text, images, audio, videos, animations, and links</b>.
+           </p>
+           <p style="font-family: Verdana; font-size: 17px; color: darkgreen;">
+            One of the most important technologies used in web development is
+           <b>HTML (HyperText Markup Language)</b>. HTML provides the basic
+           <i>structure of a webpage</i> and is used to create headings, paragraphs,
+            links, images, tables, and forms.
+           </p>
+           <p style="font-family: Georgia; font-size: 19px; color: purple;">
+           <b>CSS (Cascading Style Sheets)</b> is responsible for the appearance and presentation of a webpage.
+            It can be used to change <i>colours, fonts, font sizes, backgrounds, borders, spacing, and layouts</i>.
+           </p>
+           <p style="font-family: Arial; font-size: 21px; color: brown;">
+           <b>JavaScript</b> is another important web technology. It is used to make webpages
+           <i>interactive and dynamic</i>. It can create interactive buttons, menus, forms,
+            animations, and other features.
+           </p>
+           <p style="font-family: 'Courier New'; font-size: 18px; color: darkorange;">
+            Web technology also involves <b>web servers, databases, web browsers, and Internet protocols</b>.
+            These technologies work together to deliver information and services to users.
+           </p>
+           <p style="font-family: Tahoma; font-size: 19px; color: darkslateblue;">
+            Web technology is widely used in <b>education, business, banking, communication,
+            entertainment, and online services</b>. It has become an important part of modern life.
+           </p>
+           <p style="font-family: Georgia; font-size: 20px;">
+            In conclusion, <b>Web Technology</b> is an important part of modern computing.
+            It combines different technologies to create <i>useful, attractive, interactive,
+            and user-friendly websites and web applications</i>.
+           </p>
+        </section>
+
+        <section id="about">
+            <h2>About Web Technology</h2>
+
+           <p>
+           Web Technology refers to the different technologies, tools, programming languages, and techniques used to create, develop, design, and maintain websites and web applications. It is an important part of modern computing because it allows people to access and share information through the Internet. Web technology makes it possible for users to communicate, learn, work, shop, access online services, and interact with information from different parts of the world.Web technology includes several important technologies such as HTML, CSS, JavaScript, web servers, databases, web browsers, and Internet protocols. HTML is used to create the structure of a webpage, while CSS is used to control its appearance and layout. JavaScript is used to add interaction and dynamic features to websites. These technologies work together to create websites that are useful, attractive, interactive, and easy to use.
+
+           Web technology is widely used in many areas of modern life. Educational institutions use websites and web applications to provide learning materials and academic information. Businesses use websites to advertise their products, communicate with customers, and provide online services. Banks and other organizations also use web technologies to provide secure and convenient services to their users.
+
+           Modern web technology also supports different types of multimedia content, including images, audio, videos, animations, and graphics. These features can make websites more informative and engaging. Web technology continues to develop as new tools and techniques are introduced to improve website performance, security, accessibility, responsiveness, and user experience.
+
+           In general, Web Technology has become an essential part of the digital world. Understanding its basic concepts gives students and developers the knowledge needed to design, develop, and maintain modern websites and web applications.
+
+           </p>
+        </section>
+
+        <section id="technology">
+
+            <h2>Web Technology</h2>
+            <h3>HTML</h3>
+            
+            <p>
+             HTML stands for HyperText Markup Language. It is the standard markup language used to create and structure the content of webpages. HTML provides the basic structure of a website by using different elements and tags. It is used to create headings, paragraphs, links, lists, tables, images, forms, audio, videos, and other webpage components. HTML is usually the first technology learned by beginners because it provides the foundation on which other web technologies are built.
+            </p>
+            <h3>CSS</h3>
+            <p>
+             CSS stands for Cascading Style Sheets. It is a stylesheet language used to control the appearance and presentation of webpages. CSS works together with HTML to make a website more attractive, organized, and user-friendly. It can be used to change colours, fonts, font sizes, backgrounds, borders, spacing, alignment, and page layouts. CSS also allows developers to create responsive designs that can display properly on different devices such as computers, tablets, and smartphones.
+            </p>
+            <h3>JavaScript</h3>
+            <p>
+             JavaScript is a programming language used to make webpages interactive and dynamic. While HTML provides the structure and CSS controls the appearance, JavaScript adds functionality to the webpage. It can respond to user actions and perform tasks such as displaying messages, validating forms, changing webpage content, creating interactive menus, handling buttons, and adding animations. JavaScript is an important technology for developing modern and interactive websites and web applications.
+            </p>
+
+        </section>
+
+        <section id="images">
+
+         <h2>Web Technology Images</h2>
+
+         <img src="Screenshot_20261005_203436_ChatGPT.jpg"
+              alt="Web Technology"
+              width="400">
+
+         <img src="images web technology.jfif"
+              alt="Web Technology Image"
+              width="400">
+
+        </section>
+
+        <section id="video">
+
+         <h2>Web Design Video</h2>
+
+          <video width="600" controls>
+
+           <source src="Everything_about_Web_Design_in_3_minutes.(480p).mp4"
+                   type="video/mp4">
+
+          Your browser does not support the video tag.
+
+          </video>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright © 2026 Web Technology</p>
+    </footer>
+
+</body>
+
+</html>
